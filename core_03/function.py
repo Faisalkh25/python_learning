@@ -49,3 +49,78 @@ def rec_natural(n):
     return n + rec_natural(n - 1)
 
 print(rec_natural(5))
+
+#p3 
+'''
+***
+**
+*
+'''
+
+# def pattern(n):
+#     if(n==0):
+#         return
+#     print("*" * n)
+#     pattern(n-1)
+
+# pattern(5)       
+
+# p4 convert inches to cms
+# cm = inches * 2.54
+
+# def i_to_cms(n):
+#     cm = float(n * 2.54)
+#     print(cm)
+
+# n = int(input("enter the inches number: "))
+# i_to_cms(n)
+
+# p6
+# wa python fucntion to remove a given word from a list and and stip it at the same time
+
+# def rem(l, word):
+#     n=[]
+#     for item in l:
+#         if not(item == word):
+#             n.append(item.strip(word))
+#     return n
+
+
+# l = ['shubham', 'faisal', 'rohan', 'ahaan', 'waghan', 'an']
+# print(rem(l, "an"))
+
+
+# print prime number using function
+
+# def prime(n):
+#     if(n<=1):
+#         print("number is not a prime number")
+#         return
+#     for i in range(2, n):
+#         if(n%i == 0):
+#             print(f"the {n} is not a prime number")
+#             return
+#     print(f"the {n} is a prime number")
+
+# n = int(input("enter the number: "))
+# prime(n)
+
+# fibonacci series
+
+# def febonacci(n):
+#     if(n<=0):
+#         return 0
+#     f = 0
+#     s = 1
+#     for i in range(n):
+#         print(f, end="")                            
+#         fib = f+s
+#         f=s
+#         s=fib
+    
+
+# n = int(input("enter the number: "))
+# febonacci(n)
+
+
+
